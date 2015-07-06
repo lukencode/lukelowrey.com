@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+body {
+  font-family: 'Roboto Slab', Helvetiva, Arial;
+  background: #242729;
+  /*orange: DB4E30*/
+  color: #F2EEEB;
+  /* orange text: FCE6C6*/
+}
+a {
+  color: #f3684b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.welcome {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  margin: 0px auto;
+}
+.welcome img {
+  display: block;
+  width: 132px;
+  border-radius: 66px;
+  border: 3px solid #474747; /* orange: f3684b */
+}
+.welcome h1 {}
+.welcome p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 31px;
+}
+.links {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.links li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 19px;
+}
