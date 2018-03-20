@@ -13,6 +13,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 .welcome {
   position: absolute;
   left: 50%;
@@ -21,6 +22,7 @@ a:hover {
   max-width: 700px;
   margin: 0px auto;
 }
+
 .welcome img {
   display: block;
   width: 132px;
@@ -28,8 +30,6 @@ a:hover {
   border-radius: 66px;
   border: 2px solid #474747; /* orange: f3684b */
 }
-
-
 
 .welcome p {
   margin-top: 20px;
@@ -45,6 +45,35 @@ a:hover {
   display: inline-block;
   padding-right: 10px;
   padding-left: 5px;
-  font-weight: normal;
   font-size: 18px;
 }
+
+@media (max-width: 800px) { 
+  .welcome {
+    position: relative;
+    padding:30px 20px;
+    margin: 0px auto;
+    top:0;
+    left:0;
+    transform:none;
+  }
+  .welcome img {
+    display: block;
+    width: 80px;
+    width: 80px;
+    border-radius: 40px;
+  }
+  .welcome p {
+  }
+  .links {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+  }
+  .links li {
+    display: block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left:0;
+  }
+ }
