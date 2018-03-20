@@ -24,10 +24,13 @@ a:hover {
 .welcome img {
   display: block;
   width: 132px;
+  width: 132px;
   border-radius: 66px;
-  border: 3px solid #474747; /* orange: f3684b */
+  border: 2px solid #474747; /* orange: f3684b */
 }
-.welcome h1 {}
+
+
+
 .welcome p {
   margin-top: 20px;
   font-size: 18px;
@@ -40,8 +43,8 @@ a:hover {
 }
 .links li {
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 10px;
   padding-left: 5px;
-  font-weight: bold;
-  font-size: 19px;
+  font-weight: normal;
+  font-size: 18px;
 }
